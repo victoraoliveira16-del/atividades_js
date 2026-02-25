@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saudação do usuário</title>
+</head>
+<body>
+    <script>
+        function cumprimentarUsuario(nome){
+            return "Olá, " + nome + "!";
+        }
+
+        let nomeUsuario = prompt("Qual o seu nome?");
+        let saudacao = cumprimentarUsuario(nomeUsuario);
+
+        document.write(saudacao)
+    </script>
+</body>
+</html>

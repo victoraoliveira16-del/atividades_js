@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parâmetros</title>
+</head>
+
+<body>
+    <script>
+        // function mostrarmensagem(primeiro_nome, sobrenome) {
+        //     alert(primeiro_nome + ": " + sobrenome)
+        // }
+        // mostrarmensagem('Roberto', 'Junior');
+        // mostrarmensagem('Oi', 'Renan');
+
+        // function soma(a, b) {
+        //     return a + b;
+        // }
+
+        // let resultado = soma(2, 2);
+        // alert(resultado);
+
+        function checarIdade(idade) {
+            if (idade >= 18) {
+                return true;
+            } else {
+                return confirm("Seus pais sabem que você está aqui? ")
+            }
+        }
+
+        let idade = prompt('Quantos anos você tem?')
+
+        if (checarIdade(idade)) {
+            alert("Acesso permitido");
+
+        } else {
+            alert("Acesso Negado");
+        }
+
+    </script>
+</body>
+
+</html>
